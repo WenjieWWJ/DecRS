@@ -33,7 +33,7 @@ or use run.sh
 sh run.sh model dataset lr batch_size dropout alpha lamda gpu_id
 ```
 
-- The log file will be in the ./log/ folder. 
+- The log file will be in the './code/{dataset}/log/' folder. 
 - The explanation of hyper-parameters can be found in './code/{dataset}/main.py'. 
 - The default hyper-parameter settings are detailed in './code/{dataset}/hyper-parameters.txt'.
 
@@ -70,7 +70,7 @@ If you use our code or data, please kindly cite:
 ```
 @inproceedings{wang2021deconfounding,
   title={Deconfounded Recommendation for Alleviating Bias Amplification},
-  author={Wenjie Wang, Fuli Feng, Xiangnan He, Xiang Wang, and Tat-SengChua},
+  author={Wenjie Wang, Fuli Feng, Xiangnan He, Xiang Wang, and Tat-Seng Chua},
   booktitle={KDD},
   year={2021},
   publisher={ACM}
