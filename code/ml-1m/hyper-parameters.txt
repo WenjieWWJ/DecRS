@@ -1,0 +1,5 @@
+FM:
+sh run.sh DecFM ml_1m 0.05 1024 [0.3,0.3] 0.2 0.1 0
+
+NFM
+sh run.sh DecNFM ml_1m 0.05 512 [0.3,0.3] 0.4 0.1 0

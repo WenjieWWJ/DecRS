@@ -1,0 +1,5 @@
+FM:
+sh run.sh DecFM amazon_book 0.05 512 [0.5,0.2] 0.5 0 0
+
+NFM
+sh run.sh DecNFM amazon_book 0.005 2048 [0.2,0.2] 1 0.2 0
