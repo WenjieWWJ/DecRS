@@ -40,8 +40,8 @@ sh run.sh model dataset lr batch_size dropout alpha lamda gpu_id
 ### Inference
 
 1. Download the ranking scores released by us from [Google drive:DecRS/ranking_scores/{dataset}/](https://drive.google.com/drive/folders/1xww1VA-6Rc911vsAhucA7hi-2Np9zyWX?usp=sharing).
-2. Put **four** '.npy' file into the corresponding folder in './code/{dataset}/inference'.
-3. Get the results of DecRS over different user groups by runing DecFM.py or DecNFM.py:
+2. Put **four** '.npy' file into the corresponding folder, i.e., './code/{dataset}/inference'.
+3. Get the results of DecRS over different user groups by running DecFM.py or DecNFM.py:
 
 ```
 python DecFM.py 
